@@ -1,35 +1,34 @@
 <!doctype html>
-<html lang="el">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>ΕΠΩΝΥΜΙΑ ΙΚΕ – Εταιρική Ιστοσελίδα</title>
+    <title>SkAero – Μονοπρόσωπη Ι.Κ.Ε. | Aircraft Maintenance Support</title>
     <meta
       name="description"
-      content="Σύντομη παρουσίαση της ΕΠΩΝΥΜΙΑ ΙΚΕ και στοιχεία εταιρικής διαφάνειας."
+      content="SkAero provides aircraft maintenance and technical support services on a contract basis."
     />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Canonical: set this to your real domain -->
-    <link rel="canonical" href="https://www.TO-DOMAIN-SAS.gr/" />
+    <!-- Preferred URL -->
+    <link rel="canonical" href="https://www.skaero.eu/" />
 
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ΕΠΩΝΥΜΙΑ ΙΚΕ" />
+    <meta property="og:site_name" content="SkAero" />
+    <meta property="og:title" content="SkAero – ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε." />
     <meta
       property="og:description"
-      content="Εταιρική παρουσίαση και στοιχεία επικοινωνίας."
+      content="Aircraft maintenance and technical support services on a contract basis."
     />
-    <meta property="og:url" content="https://www.TO-DOMAIN-SAS.gr/" />
-    <!-- Optional: add an image if you have one -->
-    <!-- <meta property="og:image" content="https://www.TO-DOMAIN-SAS.gr/og-image.jpg" /> -->
+    <meta property="og:url" content="https://www.skaero.eu/" />
+    <!-- Optional: <meta property="og:image" content="https://www.skaero.eu/og-image.jpg" /> -->
 
     <style>
       :root {
         --bg: #0b1220;
-        --card: #111a2e;
         --text: #eaf0ff;
         --muted: #b7c2dd;
         --link: #8ab4ff;
@@ -86,17 +85,15 @@
         flex-direction: column;
         gap: 6px;
       }
-
       h1 {
         margin: 0;
         font-size: clamp(26px, 3.2vw, 40px);
         letter-spacing: -0.02em;
       }
-
       .subtitle {
         margin: 0;
         color: var(--muted);
-        max-width: 70ch;
+        max-width: 75ch;
       }
 
       nav {
@@ -105,7 +102,6 @@
         gap: 10px;
         padding: 10px 0 0;
       }
-
       .pill {
         display: inline-block;
         padding: 8px 12px;
@@ -134,7 +130,6 @@
       }
       p {
         margin: 8px 0;
-        color: var(--text);
       }
       .muted {
         color: var(--muted);
@@ -145,7 +140,6 @@
         grid-template-columns: 1fr;
         gap: 12px;
       }
-
       @media (min-width: 860px) {
         .grid {
           grid-template-columns: 1fr 1fr;
@@ -164,41 +158,51 @@
         color: var(--muted);
       }
 
+      .note {
+        margin-top: 10px;
+        padding: 10px 12px;
+        border: 1px dashed rgba(255, 255, 255, 0.22);
+        border-radius: 12px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
       footer {
         margin-top: 18px;
         color: var(--muted);
         font-size: 14px;
         text-align: center;
       }
-
-      .small {
-        font-size: 13px;
-      }
     </style>
 
-    <!-- Optional: JSON-LD structured data -->
+    <!-- JSON-LD (Organization) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "ΕΠΩΝΥΜΙΑ ΙΚΕ",
-        "legalName": "ΠΛΗΡΗΣ ΕΠΩΝΥΜΙΑ ΙΚΕ",
-        "url": "https://www.TO-DOMAIN-SAS.gr/",
-        "vatID": "ELΑΦΜ",
+        "name": "SkAero",
+        "legalName": "SkAero ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.",
+        "alternateName": "SkAero Single Member P.C.",
+        "url": "https://www.skaero.eu/",
+        "taxID": "803123806",
+        "vatID": "EL803123806",
+        "email": "teoskour@gmail.com",
+        "telephone": "+30-6987987802",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "ΔΙΕΥΘΥΝΣΗ",
-          "addressLocality": "ΠΟΛΗ",
-          "postalCode": "ΤΚ",
+          "streetAddress": "Chrysostomou Smyrnis 1",
+          "addressLocality": "Argyroupoli",
+          "addressRegion": "Attica",
+          "postalCode": "16452",
           "addressCountry": "GR"
         },
         "contactPoint": [
           {
             "@type": "ContactPoint",
             "contactType": "Customer Service",
-            "email": "info@TO-DOMAIN-SAS.gr",
-            "telephone": "+30-2XXXXXXXXX",
-            "availableLanguage": ["el", "en"]
+            "email": "teoskour@gmail.com",
+            "telephone": "+30-6987987802",
+            "availableLanguage": ["en", "el"]
           }
         ]
       }
@@ -209,134 +213,166 @@
     <div class="wrap">
       <header>
         <div class="brand">
-          <h1>ΕΠΩΝΥΜΙΑ ΙΚΕ</h1>
+          <h1>SkAero</h1>
           <p class="subtitle">
-            Σύντομη παρουσίαση της εταιρείας (1–2 προτάσεις). Περιγράψτε τι
-            κάνει η εταιρεία, σε ανθρώπινη γλώσσα.
+            Aircraft maintenance and technical support services on a contract
+            basis.
+            <br />
+            <span class="muted" lang="el"
+              >Νομική επωνυμία: SkAero ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</span
+            >
+            <span class="muted"> • </span>
+            <span class="muted"
+              >International name: SkAero Single Member P.C.</span
+            >
           </p>
         </div>
 
-        <nav aria-label="Γρήγορη πλοήγηση">
-          <a class="pill" href="#about">Σχετικά</a>
-          <a class="pill" href="#contact">Επικοινωνία</a>
-          <a class="pill" href="#legal">Νομικές Πληροφορίες (ΙΚΕ)</a>
-          <a class="pill" href="#privacy">Απόρρητο</a>
+        <nav aria-label="Quick navigation">
+          <a class="pill" href="#about">About</a>
+          <a class="pill" href="#contact">Contact</a>
+          <a class="pill" href="#legal">Legal / Γ.Ε.ΜΗ.</a>
+          <a class="pill" href="#privacy">Privacy</a>
         </nav>
       </header>
 
       <main>
         <section id="about">
-          <h2>Σχετικά με εμάς</h2>
+          <h2>About</h2>
           <p>
-            Γράψτε 3–5 γραμμές: τι υπηρεσίες/προϊόντα παρέχετε, σε ποιους
-            απευθύνεστε, και τι σας ξεχωρίζει.
+            SkAero provides aircraft maintenance and technical support services
+            on a contract basis.
           </p>
-          <p class="muted small">
-            Tip: Κρατήστε το “στατικό” αν θέλετε να αποφύγετε
-            cookies/analytics/φόρμες και να μείνει απλό το κομμάτι GDPR.
+          <p>
+            Managed by a certified Aircraft Maintenance Engineer, the company
+            supports operators and MRO organizations in line and base
+            maintenance activities, ensuring compliance with applicable aviation
+            regulations and industry standards.
           </p>
         </section>
 
         <div class="grid">
           <section id="contact">
-            <h2>Επικοινωνία</h2>
-            <p><strong>Διεύθυνση:</strong> ΔΙΕΥΘΥΝΣΗ, ΠΟΛΗ, ΤΚ</p>
+            <h2>Contact</h2>
             <p>
-              <strong>Τηλέφωνο:</strong>
-              <a href="tel:+302XXXXXXXXX">+30 2XXXXXXXXX</a>
+              <strong>Address:</strong> Chrysostomou Smyrnis 1, Argyroupoli,
+              Attica, 16452, Greece
+            </p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+306987987802">+30 698 798 7802</a>
             </p>
             <p>
               <strong>Email:</strong>
-              <a href="mailto:info@TO-DOMAIN-SAS.gr">info@TO-DOMAIN-SAS.gr</a>
+              <a href="mailto:teoskour@gmail.com">teoskour@gmail.com</a>
             </p>
-            <p class="muted small">Ωράριο (προαιρετικό): Δευ–Παρ 09:00–17:00</p>
           </section>
 
           <section>
-            <h2>Υπηρεσίες</h2>
+            <h2>Services</h2>
             <ul>
-              <li>Υπηρεσία 1</li>
-              <li>Υπηρεσία 2</li>
-              <li>Υπηρεσία 3</li>
+              <li>Line & base maintenance support (contract basis)</li>
+              <li>Technical assistance / troubleshooting support</li>
+              <li>Compliance-minded documentation support</li>
             </ul>
-            <p class="muted small">
-              Αν πουλάτε online ή δίνετε τιμές/προσφορές, τότε μπαίνουμε σε
-              “όρους πώλησης/χρήσης”.
+            <p class="note">
+              This site intentionally avoids analytics, trackers, and contact
+              forms to keep privacy obligations minimal.
             </p>
           </section>
         </div>
 
         <section id="legal">
-          <h2>Νομικές Πληροφορίες (ΙΚΕ – Εταιρική Διαφάνεια)</h2>
-          <p class="muted small">
-            Συμπληρώστε τα στοιχεία όπως ακριβώς εμφανίζονται στα
-            εταιρικά/Γ.Ε.ΜΗ. έγγραφα.
+          <h2>Legal / Γ.Ε.ΜΗ. (Corporate Transparency)</h2>
+
+          <p class="muted" lang="el">
+            Τα ακόλουθα στοιχεία παρατίθενται για σκοπούς εταιρικής διαφάνειας.
+          </p>
+          <p class="muted">
+            The following information is provided for corporate transparency.
           </p>
 
           <dl>
-            <dt>Πλήρης Επωνυμία</dt>
-            <dd>ΠΛΗΡΗΣ ΕΠΩΝΥΜΙΑ ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙΑ (Ι.Κ.Ε.)</dd>
-
-            <dt>Διακριτικός Τίτλος (αν υπάρχει)</dt>
-            <dd>ΔΙΑΚΡΙΤΙΚΟΣ ΤΙΤΛΟΣ</dd>
-
-            <dt>Αριθμός Γ.Ε.ΜΗ.</dt>
-            <dd>ΓΕΜΗ_ΑΡΙΘΜΟΣ</dd>
-
-            <dt>Έδρα</dt>
-            <dd>ΕΔΡΑ (ΠΟΛΗ)</dd>
-
-            <dt>Ακριβής Διεύθυνση Έδρας</dt>
-            <dd>ΔΙΕΥΘΥΝΣΗ, ΠΟΛΗ, ΤΚ, ΕΛΛΑΔΑ</dd>
-
-            <dt>Α.Φ.Μ. / Δ.Ο.Υ.</dt>
-            <dd>ΑΦΜ – ΔΟΥ</dd>
-
-            <dt>Εταιρικό Κεφάλαιο</dt>
-            <dd>€ ΚΕΦΑΛΑΙΟ</dd>
-
-            <dt>Συνολικό ποσό εγγυητικών εισφορών (αν υπάρχουν)</dt>
-            <dd>€ ΕΓΓΥΗΤΙΚΕΣ_ΕΙΣΦΟΡΕΣ (ή “Δεν υπάρχουν”)</dd>
-
-            <dt>Κατάσταση Εκκαθάρισης</dt>
-            <dd>Όχι (ή “Ναι – υπό εκκαθάριση”)</dd>
-
-            <dt>Διαχειριστής</dt>
-            <dd>ΟΝΟΜΑΤΕΠΩΝΥΜΟ ΔΙΑΧΕΙΡΙΣΤΗ</dd>
-
-            <dt>Εταίροι (ονοματεπώνυμο, διεύθυνση, κατηγορία εισφοράς)</dt>
+            <dt lang="el">Πλήρης Επωνυμία</dt>
+            <dd lang="el">SkAero ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</dd>
             <dd>
-              1) ΟΝΟΜΑΤΕΠΩΝΥΜΟ – ΔΙΕΥΘΥΝΣΗ –
-              (Κεφαλαιακή/Εξωκεφαλαιακή/Εγγυητική)<br />
-              2) ΟΝΟΜΑΤΕΠΩΝΥΜΟ – ΔΙΕΥΘΥΝΣΗ –
-              (Κεφαλαιακή/Εξωκεφαλαιακή/Εγγυητική)
+              Full legal name: SkAero Single-Member Private Capital Company
+              (Ι.Κ.Ε.)
+            </dd>
+
+            <dt lang="el">Αριθμός Γ.Ε.ΜΗ.</dt>
+            <dd lang="el">190120703000</dd>
+            <dd>GEMI registration number: 190120703000</dd>
+
+            <dt lang="el">Έδρα</dt>
+            <dd lang="el">Αττική</dd>
+            <dd>Registered seat: Attica</dd>
+
+            <dt lang="el">Ακριβής Διεύθυνση Έδρας</dt>
+            <dd lang="el">
+              Chrysostomou Smyrnis 1, Αργυρούπολη, 16452, Ελλάδα
+            </dd>
+            <dd>
+              Registered office address: Chrysostomou Smyrnis 1, Argyroupoli,
+              16452, Greece
+            </dd>
+
+            <dt lang="el">Α.Φ.Μ. / Δ.Ο.Υ.</dt>
+            <dd lang="el">803123806 – ΚΕΦΟΔΕ ΑΤΤΙΚΗΣ</dd>
+            <dd>
+              Tax/VAT number: 803123806 (EL803123806) – Tax Office: ΚΕΦΟΔΕ
+              ΑΤΤΙΚΗΣ
+            </dd>
+
+            <dt lang="el">Εταιρικό Κεφάλαιο</dt>
+            <dd lang="el">€2.000,00</dd>
+            <dd>Share capital: €2,000.00</dd>
+
+            <dt lang="el">Συνολικό ποσό εγγυητικών εισφορών</dt>
+            <dd lang="el">€0,00 (Δεν υπάρχουν)</dd>
+            <dd>Total guarantee contributions: €0.00 (None)</dd>
+
+            <dt lang="el">Κατάσταση Εκκαθάρισης</dt>
+            <dd lang="el">Όχι (δεν τελεί υπό εκκαθάριση)</dd>
+            <dd>Liquidation status: No</dd>
+
+            <dt lang="el">Διαχειριστής</dt>
+            <dd lang="el">Skouras Theodoros</dd>
+            <dd>Managing director: Skouras Theodoros</dd>
+
+            <dt lang="el">Εταίρος (Μονοπρόσωπη)</dt>
+            <dd lang="el">
+              Ονοματεπώνυμο: <strong>Skouras Theodoros</strong><br />
+              Διεύθυνση: <strong>ΣΥΜΠΛΗΡΩΣΤΕ ΤΗ ΔΙΕΥΘΥΝΣΗ ΕΤΑΙΡΟΥ</strong><br />
+              Κατηγορία εισφοράς:
+              <strong>ΣΥΜΠΛΗΡΩΣΤΕ (Κεφαλαιακή/Εξωκεφαλαιακή/Εγγυητική)</strong>
+            </dd>
+            <dd>
+              Sole partner: <strong>Skouras Theodoros</strong> — Address:
+              <strong>FILL PARTNER ADDRESS</strong> — Contribution type:
+              <strong>FILL TYPE</strong>
             </dd>
           </dl>
         </section>
 
         <section id="privacy">
-          <h2>Σημείωμα Απορρήτου</h2>
+          <h2>Privacy Notice</h2>
           <p>
-            Η ιστοσελίδα αυτή δεν χρησιμοποιεί cookies παρακολούθησης και δεν
-            διαθέτει φόρμα καταχώρισης στοιχείων. Αν επικοινωνήσετε μαζί μας
-            μέσω email/τηλεφώνου, θα χρησιμοποιήσουμε τα στοιχεία σας μόνο για
-            να απαντήσουμε στο αίτημά σας.
-          </p>
-          <p class="muted small">
-            Αν προστεθούν analytics, embedded χάρτες/βίντεο ή φόρμες, συνήθως
-            χρειάζεται αναλυτικότερη πολιτική απορρήτου και (ανάλογα) cookie
-            consent.
+            This website does not use tracking cookies and does not include any
+            data submission forms. If you contact us by email or phone, your
+            details will be used solely for the purpose of responding to your
+            inquiry.
           </p>
         </section>
       </main>
 
       <footer>
-        © <span id="year"></span> ΕΠΩΝΥΜΙΑ ΙΚΕ — Όλα τα δικαιώματα διατηρούνται.
+        © <span id="year"></span>
+        <span lang="el">SkAero ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</span> — All rights reserved.
       </footer>
     </div>
 
     <script>
-      // Tiny convenience: updates year automatically
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
